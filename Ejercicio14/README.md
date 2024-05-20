@@ -1,5 +1,5 @@
 Diseñar un login con QGridLayout.
-Usar asteriscos para la clave.
+* Usar asteriscos para la clave.
 Detectar enter para simular la pulsación del botón.
 Definir la clase Formulario que será un QWidget
 Formulario tendrá QLabels y QLineEdits para Legajo, Nombre y Apellido, y un QPushButton
@@ -14,3 +14,8 @@ Agregar un método en Login que permita indicar la URL de la imagen que se mostr
 -------------------------------------------------------------------------
 (continuación):
 Agregar la siguiente característica a Login: Si el usuario falla 3 veces la clave, bloquear por 5 minutos a ese usuario.
+-----------------------------------------------------------------------
+Este ejercicio viene de la clase 5, 7 y 8.
+Incorporar la validación de usuarios con QSLite.
+Todo lo que se haga con la base de datos, que se encuentre en la clase AdminDB
+Pueden utilizar SQLiteStudio (https://sqlitestudio.pl) o similar.
