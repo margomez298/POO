@@ -20,5 +20,14 @@ Diseñar un login con QGridLayout.
 * Todo lo que se haga con la base de datos, que se encuentre en la clase AdminDB
 * Pueden utilizar SQLiteStudio (https://sqlitestudio.pl) o similar.
 ----------------------------------------------------------------------
+(continuación):
+* Implementar en AdminDB el uso de MD5 para las claves de los usuarios.
+* Acondicionar para que el método utilizado sea el siguiente:
+![image](https://github.com/margomez298/POO/assets/108554513/5362351e-3378-43f2-8b81-6309d0af11c4)
+
+* Además, definir un método en AdminDB para ejecutar un select a la base. El prototipo es el siguiente:
+![image](https://github.com/margomez298/POO/assets/108554513/96fb3699-6aad-4c66-828c-b8267c91b6eb)
+* Definir en Login una signal que se emita cada vez que un usuario se loguee exitosamente. La signal debe emitir el nombre de usuario.
+![image](https://github.com/margomez298/POO/assets/108554513/c3af9d8a-bc84-4328-bf5b-1d7202ea3514)
 
 
